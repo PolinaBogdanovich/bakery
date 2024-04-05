@@ -1,0 +1,444 @@
+body{
+    margin: 0;
+}
+
+.carousel{
+    position: relative;
+    width: 1057px;
+    padding: 50px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    background: #eee;
+}
+  
+.carousel img{
+    width: 350px;
+    height: 350px;
+    display: block;
+}
+  
+.arrow{
+    position: absolute;
+    top: 200px;
+    padding: 12px;
+    background: orange;
+    border-radius: 12px;
+    border: 1px solid orange;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(34, 34, 34);
+    display: block;
+}
+  
+.arrow:focus{
+    outline: none;
+}
+  
+.arrow:hover{
+    background: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+  
+.prev{
+    left: 7px;
+}
+  
+.next{
+    right: 7px;
+}
+  
+.gallery{
+    width: 1050px;
+    overflow: hidden;
+}
+  
+.gallery ul{
+    height: 350px;
+    width: 10500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 0;
+}
+  
+.gallery li{
+    display: inline-block;
+}
+
+.header{
+    background-image: url(images/3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.container{
+    margin: 0px 9%;
+}
+
+.header-menu{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 130px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 30px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: orange;
+}
+
+.phone{
+    margin-left: 70px;
+}
+
+.phone-numder{
+    text-decoration: none;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: color 0.3s linear;
+}
+
+.phone-numder:hover{
+    color: orange;
+}
+
+.header-down{
+    position: relative;
+}
+
+.header-title{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    margin-top: 210px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-button{
+    background: white;
+    color: black;
+    text-decoration: none;
+    margin-top: 250px;
+    padding: 12px 25px;
+    font-size: 11px;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 300;
+    transition: color 0.3s linear;
+    border-radius: 5px;
+}
+
+.header-button:hover{
+    background: orange;
+}
+
+.cards-holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 30%;
+    box-shadow: 7px 7px 20px 20px rgb(189, 189, 189);
+    margin-right: 31px;
+    background: white;
+    margin-top: -20px;
+    padding: 5px 10px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.card-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+
+.history{
+    width: 100%;
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+
+.history-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    width: 35vw;
+    text-align: center;
+}
+
+.history-title span{
+    color: orange;
+}
+
+.history-disc{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+    width: 35vw;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-disc span{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.history-number{
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 40px;
+    font-weight: 800;
+    width: 35vw;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.history-number span{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+    display: block;
+}
+
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images{
+    position: relative;
+}
+
+.images-1{
+    position: absolute;
+    z-index: 3;
+    top: -70px;
+    left: -600px;
+}
+
+.images-2{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -300px;
+}
+
+.images-3{
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: -500px;
+}
+
+.grey-block{
+    background: rgb(34, 34, 34);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.grey-blockk{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    border-bottom: 7px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right-title{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    width: 45vw;
+    text-align: center;
+}
+
+.right-title span{
+    color: orange;
+}
+
+.right-subtitle{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+    width: 45vw;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.right-subtitle span{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.right-suptitle{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: white;
+    font-size: 16px;
+    width: 45vw;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map{
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: radial-gradient(at 0% 20%, orange 10px, white 30%);
+}
+
+.map-title{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    width: 45vw;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.map-title span{
+    color: orange;
+}
+
+.map-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: -70px;
+}
+
+.map-adres{
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 22px;
+    font-weight: 800;
+    width: 45vw;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.map-adres span{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+    display: block;
+}
+
+.map-time{
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 22px;
+    font-weight: 800;
+    width: 45vw;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.map-time span{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+    display: block;
+}
+
+.footer{
+    background: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.topbutton{
+    z-index: 4;
+    opacity: 0.7;
+    text-decoration: none;
+    width: 80px;
+    border: 2px solid orange;
+    background: white;
+    text-align: center;
+    padding: 7px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: orange;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}

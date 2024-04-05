@@ -1,0 +1,928 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url(images/3.jpg);
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.container{
+    margin: 0px 100px;
+}
+
+.header-menu{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 130px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 30px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: orange;
+}
+
+.phone{
+    margin-left: 70px;
+}
+
+.phone-numder{
+    text-decoration: none;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: color 0.3s linear;
+}
+
+.phone-numder:hover{
+    color: orange;
+}
+
+.assortiment-header{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+    
+.assortiment-header span{
+        color: orange;
+}
+
+.menu-images{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.menu-images img {
+    transition: 1s; 
+    border: 1px transparent white;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.menu-images img:hover{
+    transform: scale(1.05); 
+    filter: grayscale(120%);
+}
+
+.bread{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button1{
+    position: absolute;
+    top: -70px;
+    left: 30px;
+}
+
+.vipechka{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button2{
+    position: absolute;
+    top: -70px;
+    left: 30px;
+}
+
+.cake{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button3{
+    position: absolute;
+    top: -70px;
+    left: 10px;
+}
+
+.piroqenoe{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button4{
+    position: absolute;
+    top: -70px;
+    left: 30px;
+}
+
+.pechenie{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button5{
+    position: absolute;
+    top: -70px;
+    left: 30px;
+}
+
+.napitki{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button6{
+    position: absolute;
+    top: -70px;
+    left: 30px;
+}
+
+.bread-assortiment-header{
+    color: orange;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bread-assortiment-header::before{
+    content: '\1F35E';
+    margin-right: 15px;
+}
+
+.bread-assortiment-header::after{
+    content: '\1F35E';
+    margin-left: 12px;
+}
+
+.bread-assortiment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.breads{
+    width: 33%;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    background: white;
+    padding: 5px 10px;
+}
+
+.bread-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.bread-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.bread-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+
+a.bread1{
+    background: url(images/rzanoy.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.bread1:hover{
+    background: url(images/rzanoy_razrez.jpg);
+}
+
+a.bread2{
+    background: url(images/bread_razrez.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.bread2:hover{
+    background: url(images/bread2.0.jpg);
+}
+
+a.bread3{
+    background: url(images/chiabatta.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.bread3:hover{
+    background: url(images/chiabatta2.0.jpg);
+}
+
+a.bread4{
+    background: url(images/bread_olivki.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.bread4:hover{
+    background: url(images/bread_olivki_razrez.jpg);
+}
+
+a.bread5{
+    background: url(images/len.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.bread5:hover{
+    background: url(images/len2.0.jpg);
+}
+
+a.bread6{
+    background: url(images/bylka.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.bread6:hover{
+    background: url(images/bylka_razrez.jpg);
+}
+
+.vipechka-assortiment-header{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vipechka-assortiment-header::before{
+    content: '\1F370';
+    margin-right: 15px;
+}
+
+.vipechka-assortiment-header::after{
+    content: '\1F370';
+    margin-left: 12px;
+}
+
+.white-block{
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.vipechka-assortiment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vipechkas{
+    width: 33%;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    background: rgb(34, 34, 34);
+    padding: 5px 10px;
+}
+
+.vipechka-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.vipechka-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.vipechka-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+}
+
+a.vipechka1{
+    background: url(images/mindalniy.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.vipechka1:hover{
+    background: url(images/mindalniy2.0.jpg);
+}
+
+a.vipechka2{
+    background: url(images/chokoladniy.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.vipechka2:hover{
+    background: url(images/chokoladniy2.0.jpg);
+}
+
+a.vipechka3{
+    background: url(images/sloyka.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.vipechka4{
+    background: url(images/pirog.JPG); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.vipechka4:hover{
+    background: url(images/pirog2.0.JPG);
+}
+
+a.vipechka5{
+    background: url(images/pirog_limon.JPG); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.vipechka6{
+    background: url(images/pirog_tvorozniy.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.grey-block{
+    background: rgb(34, 34, 34);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.cake-assortiment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cakes{
+    width: 33%;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    background: white;
+    padding: 5px 10px;
+}
+
+.cake-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.cake-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.cake-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+
+.cake-assortiment-header{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 50px;
+    width: auto;
+    text-align: center;
+}
+
+.cake-assortiment-header span{
+    color: orange;
+}
+
+.cake-assortiment-header::before{
+    content: '\1F382';
+    margin-right: 15px;
+}
+
+.cake-assortiment-header::after{
+    content: '\1F382';
+    margin-left: 12px;
+}
+
+a.cake1{
+    background: url(images/vertik_medovik.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake1:hover{
+    background: url(images/vertik_medovik_razrez.jpg);
+}
+
+a.cake2{
+    background: url(images/myss.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake2:hover{
+    background: url(images/myss_razrez.jpg);
+}
+
+a.cake3{
+    background: url(images/chernich.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake3:hover{
+    background: url(images/chernich_razrez.jpg);
+}
+
+a.cake4{
+    background: url(images/napoleon.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake4:hover{
+    background: url(images/napoleon_razrez.jpg);
+}
+
+a.cake5{
+    background: url(images/ptich_moloko.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake5:hover{
+    background: url(images/ptich_moloko_razrez.jpg);
+}
+
+a.cake6{
+    background: url(images/morkovny.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake6:hover{
+    background: url(images/morkovny_razrez.jpg);
+}
+
+a.cake7{
+    background: url(images/medovik.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake7:hover{
+    background: url(images/medovik_razrez.jpg);
+}
+
+a.cake8{
+    background: url(images/ferrero.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake8:hover{
+    background: url(images/ferrero_razrez.jpg);
+}
+
+a.cake9{
+    background: url(images/chiz.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.cake9:hover{
+    background: url(images/chiz_razrez.jpg);
+}
+
+.piroqenoe-assortiment-header{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.piroqenoe-assortiment-header::before{
+    content: '\1F369';
+    margin-right: 15px;
+}
+
+.piroqenoe-assortiment-header::after{
+    content: '\1F369';
+    margin-left: 12px;
+}
+
+.piroqenoe-assortiment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.piroqenoes{
+    width: 33%;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    background: rgb(34, 34, 34);
+    padding: 5px 10px;
+}
+
+.piroqenoe-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.piroqenoe-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.piroqenoe-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+}
+
+a.piroqenoe1{
+    background: url(images/eclair.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.piroqenoe1:hover{
+    background: url(images/eclair_razrez.jpg);
+}
+
+a.piroqenoe2{
+    background: url(images/eclair_choko.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.piroqenoe2:hover{
+    background: url(images/eclair_choko_razrez.jpg);
+}
+
+a.piroqenoe3{
+    background: url(images/eclair_fistashka.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.piroqenoe3:hover{
+    background: url(images/eclair_fistashka_razrez.jpg);
+}
+
+a.piroqenoe4{
+    background: url(images/macaron_razrez.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.piroqenoe4:hover{
+    background: url(images/macaron.jpg);
+}
+
+a.piroqenoe5{
+    background: url(images/macaron_kapychino_2.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.piroqenoe5:hover{
+    background: url(images/macaron_kapychino.jpg);
+}
+
+a.piroqenoe6{
+    background: url(images/kolzo.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.pechenie-assortiment-header{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pechenie-assortiment-header::before{
+    content: '\1F36A';
+    margin-right: 15px;
+}
+
+.pechenie-assortiment-header::after{
+    content: '\1F36A';
+    margin-left: 12px;
+}
+
+.pechenie-assortiment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pechenies{
+    width: 33%;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    background: white;
+    padding: 5px 10px;
+}
+
+.pechenie-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.pechenie-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.pechenie-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+
+a.pechenie1{
+    background: url(images/kantychi.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.pechenie2{
+    background: url(images/pechenie_abrikos.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.pechenie3{
+    background: url(images/pechenie_detskoe.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.napitki-assortiment-header{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.napitki-assortiment-header::before{
+    content: '\02615';
+    margin-right: 15px;
+}
+
+.napitki-assortiment-header::after{
+    content: '\02615';
+    margin-left: 12px;
+}
+
+.napitki-assortiment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.napitkis{
+    width: 33%;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    background: rgb(34, 34, 34);
+    padding: 5px 10px;
+}
+
+.napitki-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    margin-bottom: 10px;
+}
+
+.napitki-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.napitki-disc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+}
+
+a.napitki1{
+    background: url(images/coffee.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.napitki2{
+    background: url(images/hot_chokolate.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+a.napitki3{
+    background: url(images/lemonad.jpg); 
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.footer{
+    background: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.topbutton{
+    z-index: 1000;
+    opacity: 0.7;
+    text-decoration: none;
+    width: 80px;
+    border: 2px solid orange;
+    background: white;
+    text-align: center;
+    padding: 7px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: orange;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
